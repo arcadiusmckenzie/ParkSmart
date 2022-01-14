@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lock"
+            android:contentDescription="@string/logo" />
+
+
+        <EditText
+            android:id="@+id/username1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+            android:background="@drawable/login_edit_background"
+            android:hint="@string/email"
+            android:textColorHint="@color/white"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:autofillHints="Enter phone number" />
+
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/login_edit_background"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:autofillHints="Enter password" />
+
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background"
+            android:text="@string/log_in2"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/admin_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in_as_admin"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="21sp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    </RelativeLayout>

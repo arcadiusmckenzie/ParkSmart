@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35494827737",
+    "project_id": "ethereal-fort-316914",
+    "storage_bucket": "ethereal-fort-316914.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35494827737:android:6431d5c3bc17dd74c150c8",
+        "android_client_info": {
+          "package_name": "com.example.parksmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35494827737-fuuursbi0c92hm8jelg2ucagj0jtrikr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChGO6YBHB3C1Dwp_h6iBy1gG6MUrBCmFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35494827737-fuuursbi0c92hm8jelg2ucagj0jtrikr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BookingActivity"
+        android:background="@drawable/login_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/vehicle_id"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/login_edit_background"
+                android:hint="@string/vehicle_number"
+                android:textColorHint="@color/white"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                android:autofillHints="Enter vehicle number" />
+
+
+            <EditText
+                android:id="@+id/booking_email"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:textColorHint="@color/white"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/login_edit_background"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                android:autofillHints="Enter email" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/time_id"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="48dp"-->
+<!--                android:textColorHint="@color/white"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:background="@drawable/login_edit_background"-->
+<!--                android:hint="@string/parking_time"-->
+<!--                android:inputType="number"-->
+<!--                android:padding="10dp"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="21sp"-->
+<!--                android:autofillHints="Enter email" />-->
+
+            <Chronometer
+                android:id="@+id/simpleChronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/book_btn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_background"
+                android:text="@string/book"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="21sp" />
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+

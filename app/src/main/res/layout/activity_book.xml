@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookActivity"
+    android:background="@drawable/login_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/vehicle_id"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/login_edit_background"
+            android:hint="@string/vehicle_number"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:autofillHints="Enter vehicle number" />
+
+
+        <EditText
+            android:id="@+id/booking_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/login_edit_background"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:autofillHints="Enter email" />
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Start time"-->
+<!--            android:textStyle="bold"-->
+<!--            android:clickable="true"-->
+<!--            android:textSize="24sp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:textColorHint="@color/black"-->
+<!--            android:id="@+id/starttime"-->
+<!--            android:background="@android:drawable/editbox_background"-->
+<!--            android:layout_marginStart="50dp"-->
+<!--            android:layout_marginEnd="50dp"-->
+<!--            app:drawableLeftCompat="@drawable/ic_time" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="End time"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="24sp"-->
+<!--            android:gravity="center"-->
+<!--            android:clickable="true"-->
+<!--            android:textColorHint="@color/black"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:id="@+id/endtime"-->
+<!--            android:background="@android:drawable/editbox_background"-->
+<!--            android:layout_marginStart="50dp"-->
+<!--            android:layout_marginEnd="50dp"-->
+<!--            app:drawableLeftCompat="@drawable/ic_time" />-->
+
+        <Chronometer
+            android:id="@+id/simpleChronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/book_btn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background"
+            android:text="@string/book"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
